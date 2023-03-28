@@ -1,0 +1,13 @@
+def get_positive_numbers(input_list):
+    positive_numbers = []
+    for num in input_list:
+        if num > 0:
+            positive_numbers.append(num)
+    return positive_numbers
+# example usage
+list1 = [12, -7, 5, 64, -14]
+positive_list1 = get_positive_numbers(list1)
+print(positive_list1)
+list2 = [12, 14, -95, 3]
+positive_list2 = get_positive_numbers(list2)
+print(positive_list2)
